@@ -8,7 +8,7 @@ def main():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.connect((host, port))
 
-        student_id = "123"
+        student_id = "1200029"
 
         s.sendall(student_id.encode("utf-8"))
 
